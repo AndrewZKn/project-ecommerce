@@ -1,0 +1,23 @@
+:root{
+    --color-text: #9e8d8c;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+}
+
+.app{
+    
+}
+.app__container{
+    overflow-x: hidden;
+
+}
+
+.container__header{
+
+}
