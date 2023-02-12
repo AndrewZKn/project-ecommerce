@@ -21,7 +21,13 @@ body{
 .container__header{
 
 }
-
+.panel{
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.active{
+    color: red!important;
+}
 
 @keyframes rotate{
     0%{
