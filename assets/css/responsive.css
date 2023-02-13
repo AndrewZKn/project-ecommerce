@@ -165,15 +165,16 @@
 
     .container__image{
         display: block;
-        height: 400px;
+        /* height: 400px; */
     }
 
     .container__image-item{
         width: 150px;
         height: 150px;
     }
-    .container__image-list{
+    .cgit remote set-url origin ontainer__image-list{
         width: 100%;
+        height: 400px;
     }
     .container__image-list:first-child .container__image-item:nth-child(2){
         top: 50px;
@@ -240,7 +241,7 @@
         justify-content: left;
     }
     .container__rating-star{
-        left: 0;
+        /* left: ; */
     }
 
     /*end  ratting -----------------------------------------------------------------------------------------------------------------------------------------> */
@@ -304,7 +305,15 @@
         padding-bottom: 120px;
     }
     /* end card  -----------------------------------------------------------------------------------------------------------------------------------------> */
-
+    #myInput{
+        width: unset;
+    }
+    .panel{
+        height: 30vh;
+    }
+    .container{
+        /* display: unset; */
+    }
 }
 
 
